@@ -2,9 +2,9 @@
 <settings>
     <mysql>
         <server>localhost</server>
-        <username>enid</username>
-        <password>mHQ65Dpnj42xY3pj</password>
-        <database>enid</database>
+        <username>_USER_</username>
+        <password>_PASSWORD_</password>
+        <database>_DATABASE_</database>
     </mysql>
     <redmine>
         <enabled>false</enabled>
