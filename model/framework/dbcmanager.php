@@ -6,6 +6,10 @@ function mysqliConnect($configFile) {
             (string)$settings->mysql->username,
             (string)$settings->mysql->password,
             (string)$settings->mysql->database);
+    if (mysqli_connect_errno()) {
+      printf("Connection failed: %s\n", mysqli_connect_error());
+      exit();
+    }
     return $con;
 }
 
