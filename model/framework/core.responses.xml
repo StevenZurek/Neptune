@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<responses>
+    <response>
+        <parent>PROCESSOR</parent>
+        <errorid>1000</errorid>
+        <description>NO QUERY SUBMITED</description>
+        <message>NO QUERY SUBMITED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>PROCESSOR</parent>
+        <errorid>1001</errorid>
+        <description>REQUEST NOT AUTHORIZED</description>
+        <message>REQUEST NOT AUTHORIZED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>PROCESSOR</parent>
+        <errorid>1002</errorid>
+        <description>INVALID REQUEST XML</description>
+        <message>INVALID REQUEST XML</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>SESSION_MANAGER</parent>
+        <errorid>1003</errorid>
+        <description>SESSION EXPIRED</description>
+        <message>SESSION EXPIRED</message>
+        <result>FATAL</result>
+    </response>
+</responses>

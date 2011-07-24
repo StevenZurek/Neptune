@@ -1,0 +1,1 @@
+UPDATE `user_account` SET `password` = '?2' WHERE `userId` = '?1'

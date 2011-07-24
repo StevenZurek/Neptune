@@ -1,0 +1,1 @@
+DELETE FROM `events_rsvp` WHERE `eventId` = '?1' AND `userId` = '?2';

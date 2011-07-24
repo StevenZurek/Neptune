@@ -1,0 +1,3781 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class FPDF</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class FPDF</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_framework---library---fpdf---fpdf.php.html">/framework/library/fpdf/fpdf.php</a> (line <span class="field">12</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$AliasNbPages" title="details" class="var-name">$AliasNbPages</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$author" title="details" class="var-name">$author</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$AutoPageBreak" title="details" class="var-name">$AutoPageBreak</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$bMargin" title="details" class="var-name">$bMargin</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$buffer" title="details" class="var-name">$buffer</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$cMargin" title="details" class="var-name">$cMargin</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$ColorFlag" title="details" class="var-name">$ColorFlag</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$compress" title="details" class="var-name">$compress</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$CoreFonts" title="details" class="var-name">$CoreFonts</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$creator" title="details" class="var-name">$creator</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$CurOrientation" title="details" class="var-name">$CurOrientation</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$CurPageFormat" title="details" class="var-name">$CurPageFormat</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$CurrentFont" title="details" class="var-name">$CurrentFont</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$DefOrientation" title="details" class="var-name">$DefOrientation</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$DefPageFormat" title="details" class="var-name">$DefPageFormat</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$diffs" title="details" class="var-name">$diffs</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$DrawColor" title="details" class="var-name">$DrawColor</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$FillColor" title="details" class="var-name">$FillColor</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$FontFamily" title="details" class="var-name">$FontFamily</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$FontFiles" title="details" class="var-name">$FontFiles</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$fonts" title="details" class="var-name">$fonts</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$FontSize" title="details" class="var-name">$FontSize</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$FontSizePt" title="details" class="var-name">$FontSizePt</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$FontStyle" title="details" class="var-name">$FontStyle</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$h" title="details" class="var-name">$h</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$hPt" title="details" class="var-name">$hPt</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$images" title="details" class="var-name">$images</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$InFooter" title="details" class="var-name">$InFooter</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$InHeader" title="details" class="var-name">$InHeader</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$k" title="details" class="var-name">$k</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$keywords" title="details" class="var-name">$keywords</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$lasth" title="details" class="var-name">$lasth</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$LayoutMode" title="details" class="var-name">$LayoutMode</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$LineWidth" title="details" class="var-name">$LineWidth</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$links" title="details" class="var-name">$links</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$lMargin" title="details" class="var-name">$lMargin</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$n" title="details" class="var-name">$n</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$offsets" title="details" class="var-name">$offsets</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$page" title="details" class="var-name">$page</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$PageBreakTrigger" title="details" class="var-name">$PageBreakTrigger</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$PageFormats" title="details" class="var-name">$PageFormats</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$PageLinks" title="details" class="var-name">$PageLinks</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$pages" title="details" class="var-name">$pages</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$PageSizes" title="details" class="var-name">$PageSizes</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$PDFVersion" title="details" class="var-name">$PDFVersion</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$rMargin" title="details" class="var-name">$rMargin</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$state" title="details" class="var-name">$state</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$subject" title="details" class="var-name">$subject</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$TextColor" title="details" class="var-name">$TextColor</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$title" title="details" class="var-name">$title</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$tMargin" title="details" class="var-name">$tMargin</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$underline" title="details" class="var-name">$underline</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$w" title="details" class="var-name">$w</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$wPt" title="details" class="var-name">$wPt</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$ws" title="details" class="var-name">$ws</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$x" title="details" class="var-name">$x</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$y" title="details" class="var-name">$y</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$ZoomMode" title="details" class="var-name">$ZoomMode</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+				<div class="method-definition">
+											<span class="method-result">FPDF</span>
+										<a href="#FPDF" title="details" class="method-name">FPDF</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$orientation</span> = <span class="var-default">'P'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$unit</span> = <span class="var-default">'mm'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$format</span> = <span class="var-default">'A4'</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#AcceptPageBreak" title="details" class="method-name">AcceptPageBreak</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#AddFont" title="details" class="method-name">AddFont</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$family</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$file</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#AddLink" title="details" class="method-name">AddLink</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#AddPage" title="details" class="method-name">AddPage</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$orientation</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$format</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#AliasNbPages" title="details" class="method-name">AliasNbPages</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$alias</span> = <span class="var-default">'{nb}'</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Cell" title="details" class="method-name">Cell</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$txt</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$border</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$ln</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$align</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$fill</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$link</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Close" title="details" class="method-name">Close</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Error" title="details" class="method-name">Error</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$msg</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Footer" title="details" class="method-name">Footer</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#GetStringWidth" title="details" class="method-name">GetStringWidth</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#GetX" title="details" class="method-name">GetX</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#GetY" title="details" class="method-name">GetY</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Header" title="details" class="method-name">Header</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Image" title="details" class="method-name">Image</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$x</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$y</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$w</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$type</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$link</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Line" title="details" class="method-name">Line</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$x2</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y2</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Link" title="details" class="method-name">Link</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$link</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Ln" title="details" class="method-name">Ln</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">null</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#MultiCell" title="details" class="method-name">MultiCell</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$border</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$align</span> = <span class="var-default">'J'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$fill</span> = <span class="var-default">false</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Open" title="details" class="method-name">Open</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Output" title="details" class="method-name">Output</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$name</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$dest</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#PageNo" title="details" class="method-name">PageNo</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Rect" title="details" class="method-name">Rect</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetAuthor" title="details" class="method-name">SetAuthor</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$author</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetAutoPageBreak" title="details" class="method-name">SetAutoPageBreak</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$auto</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span> = <span class="var-default">0</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetCompression" title="details" class="method-name">SetCompression</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$compress</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetCreator" title="details" class="method-name">SetCreator</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$creator</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetDisplayMode" title="details" class="method-name">SetDisplayMode</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$zoom</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$layout</span> = <span class="var-default">'continuous'</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetDrawColor" title="details" class="method-name">SetDrawColor</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$r</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$g</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$b</span> = <span class="var-default">null</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetFillColor" title="details" class="method-name">SetFillColor</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$r</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$g</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$b</span> = <span class="var-default">null</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetFont" title="details" class="method-name">SetFont</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$family</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">0</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetFontSize" title="details" class="method-name">SetFontSize</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$size</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetKeywords" title="details" class="method-name">SetKeywords</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$keywords</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetLeftMargin" title="details" class="method-name">SetLeftMargin</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetLineWidth" title="details" class="method-name">SetLineWidth</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$width</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetLink" title="details" class="method-name">SetLink</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$link</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$y</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">-1</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetMargins" title="details" class="method-name">SetMargins</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$left</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$top</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$right</span> = <span class="var-default">null</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetRightMargin" title="details" class="method-name">SetRightMargin</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetSubject" title="details" class="method-name">SetSubject</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$subject</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetTextColor" title="details" class="method-name">SetTextColor</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$r</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$g</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$b</span> = <span class="var-default">null</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetTitle" title="details" class="method-name">SetTitle</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$title</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetTopMargin" title="details" class="method-name">SetTopMargin</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetX" title="details" class="method-name">SetX</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetXY" title="details" class="method-name">SetXY</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#SetY" title="details" class="method-name">SetY</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$y</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Text" title="details" class="method-name">Text</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Write" title="details" class="method-name">Write</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$link</span> = <span class="var-default">''</span>])
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_beginpage" title="details" class="method-name">_beginpage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$orientation</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_dochecks" title="details" class="method-name">_dochecks</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_dounderline" title="details" class="method-name">_dounderline</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_enddoc" title="details" class="method-name">_enddoc</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_endpage" title="details" class="method-name">_endpage</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_escape" title="details" class="method-name">_escape</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_getfontpath" title="details" class="method-name">_getfontpath</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_getpageformat" title="details" class="method-name">_getpageformat</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_newobj" title="details" class="method-name">_newobj</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_out" title="details" class="method-name">_out</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_parsegif" title="details" class="method-name">_parsegif</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_parsejpg" title="details" class="method-name">_parsejpg</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_parsepng" title="details" class="method-name">_parsepng</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putcatalog" title="details" class="method-name">_putcatalog</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putfonts" title="details" class="method-name">_putfonts</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putheader" title="details" class="method-name">_putheader</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putimages" title="details" class="method-name">_putimages</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putinfo" title="details" class="method-name">_putinfo</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putpages" title="details" class="method-name">_putpages</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putresourcedict" title="details" class="method-name">_putresourcedict</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putresources" title="details" class="method-name">_putresources</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putstream" title="details" class="method-name">_putstream</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_puttrailer" title="details" class="method-name">_puttrailer</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_putxobjectdict" title="details" class="method-name">_putxobjectdict</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_readint" title="details" class="method-name">_readint</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$f</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_readstream" title="details" class="method-name">_readstream</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$f</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$n</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_textstring" title="details" class="method-name">_textstring</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_UTF8toUTF16" title="details" class="method-name">_UTF8toUTF16</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			
+<a name="var$AliasNbPages" id="$AliasNbPages"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$AliasNbPages</span>
+						(line <span class="line-number">67</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$author" id="$author"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$author</span>
+						(line <span class="line-number">64</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$AutoPageBreak" id="$AutoPageBreak"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$AutoPageBreak</span>
+						(line <span class="line-number">56</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$bMargin" id="$bMargin"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$bMargin</span>
+						(line <span class="line-number">33</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$buffer" id="$buffer"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$buffer</span>
+						(line <span class="line-number">17</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$cMargin" id="$cMargin"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$cMargin</span>
+						(line <span class="line-number">34</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$ColorFlag" id="$ColorFlag"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$ColorFlag</span>
+						(line <span class="line-number">51</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$compress" id="$compress"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$compress</span>
+						(line <span class="line-number">20</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$CoreFonts" id="$CoreFonts"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$CoreFonts</span>
+						(line <span class="line-number">38</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$creator" id="$creator"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$creator</span>
+						(line <span class="line-number">66</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$CurOrientation" id="$CurOrientation"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$CurOrientation</span>
+						(line <span class="line-number">23</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$CurPageFormat" id="$CurPageFormat"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$CurPageFormat</span>
+						(line <span class="line-number">26</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$CurrentFont" id="$CurrentFont"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$CurrentFont</span>
+						(line <span class="line-number">45</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$DefOrientation" id="$DefOrientation"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$DefOrientation</span>
+						(line <span class="line-number">22</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$DefPageFormat" id="$DefPageFormat"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$DefPageFormat</span>
+						(line <span class="line-number">25</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$diffs" id="$diffs"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$diffs</span>
+						(line <span class="line-number">41</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$DrawColor" id="$DrawColor"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$DrawColor</span>
+						(line <span class="line-number">48</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$FillColor" id="$FillColor"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$FillColor</span>
+						(line <span class="line-number">49</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$FontFamily" id="$FontFamily"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$FontFamily</span>
+						(line <span class="line-number">42</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$FontFiles" id="$FontFiles"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$FontFiles</span>
+						(line <span class="line-number">40</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$fonts" id="$fonts"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$fonts</span>
+						(line <span class="line-number">39</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$FontSize" id="$FontSize"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$FontSize</span>
+						(line <span class="line-number">47</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$FontSizePt" id="$FontSizePt"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$FontSizePt</span>
+						(line <span class="line-number">46</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$FontStyle" id="$FontStyle"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$FontStyle</span>
+						(line <span class="line-number">43</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$h" id="$h"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$h</span>
+						(line <span class="line-number">29</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$hPt" id="$hPt"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$hPt</span>
+						(line <span class="line-number">28</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$images" id="$images"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$images</span>
+						(line <span class="line-number">53</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$InFooter" id="$InFooter"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$InFooter</span>
+						(line <span class="line-number">59</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$InHeader" id="$InHeader"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$InHeader</span>
+						(line <span class="line-number">58</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$k" id="$k"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$k</span>
+						(line <span class="line-number">21</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$keywords" id="$keywords"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$keywords</span>
+						(line <span class="line-number">65</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$lasth" id="$lasth"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$lasth</span>
+						(line <span class="line-number">36</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$LayoutMode" id="$LayoutMode"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$LayoutMode</span>
+						(line <span class="line-number">61</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$LineWidth" id="$LineWidth"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$LineWidth</span>
+						(line <span class="line-number">37</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$links" id="$links"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$links</span>
+						(line <span class="line-number">55</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$lMargin" id="$lMargin"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$lMargin</span>
+						(line <span class="line-number">30</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$n" id="$n"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$n</span>
+						(line <span class="line-number">15</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$offsets" id="$offsets"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$offsets</span>
+						(line <span class="line-number">16</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$page" id="$page"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$page</span>
+						(line <span class="line-number">14</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$PageBreakTrigger" id="$PageBreakTrigger"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$PageBreakTrigger</span>
+						(line <span class="line-number">57</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$PageFormats" id="$PageFormats"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$PageFormats</span>
+						(line <span class="line-number">24</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$PageLinks" id="$PageLinks"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$PageLinks</span>
+						(line <span class="line-number">54</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$pages" id="$pages"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$pages</span>
+						(line <span class="line-number">18</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$PageSizes" id="$PageSizes"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$PageSizes</span>
+						(line <span class="line-number">27</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$PDFVersion" id="$PDFVersion"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$PDFVersion</span>
+						(line <span class="line-number">68</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$rMargin" id="$rMargin"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$rMargin</span>
+						(line <span class="line-number">32</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$state" id="$state"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$state</span>
+						(line <span class="line-number">19</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$subject" id="$subject"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$subject</span>
+						(line <span class="line-number">63</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$TextColor" id="$TextColor"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$TextColor</span>
+						(line <span class="line-number">50</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$title" id="$title"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$title</span>
+						(line <span class="line-number">62</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$tMargin" id="$tMargin"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$tMargin</span>
+						(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$underline" id="$underline"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$underline</span>
+						(line <span class="line-number">44</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$w" id="$w"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$w</span>
+						(line <span class="line-number">29</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$wPt" id="$wPt"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$wPt</span>
+						(line <span class="line-number">28</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$ws" id="$ws"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$ws</span>
+						(line <span class="line-number">52</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$x" id="$x"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$x</span>
+						(line <span class="line-number">35</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$y" id="$y"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$y</span>
+						(line <span class="line-number">35</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+<a name="var$ZoomMode" id="$ZoomMode"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$ZoomMode</span>
+						(line <span class="line-number">60</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodFPDF" id="FPDF"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor FPDF</span> (line <span class="line-number">75</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">*****************************************************************************</p>
+<p class="description"><p>*                                Public methods                                 *                                                                               * *****************************************************************************</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">FPDF</span>
+		<span class="method-name">
+			FPDF
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$orientation</span> = <span class="var-default">'P'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$unit</span> = <span class="var-default">'mm'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$format</span> = <span class="var-default">'A4'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$orientation</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$unit</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodAcceptPageBreak" id="AcceptPageBreak"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">AcceptPageBreak</span> (line <span class="line-number">609</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AcceptPageBreak
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodAddFont" id="AddFont"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">AddFont</span> (line <span class="line-number">453</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AddFont
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$family</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$file</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$family</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$style</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$file</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodAddLink" id="AddLink"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">AddLink</span> (line <span class="line-number">574</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AddLink
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodAddPage" id="AddPage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">AddPage</span> (line <span class="line-number">297</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AddPage
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$orientation</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$format</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$orientation</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodAliasNbPages" id="AliasNbPages"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">AliasNbPages</span> (line <span class="line-number">262</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			AliasNbPages
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$alias</span> = <span class="var-default">'{nb}'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$alias</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodCell" id="Cell"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Cell</span> (line <span class="line-number">615</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Cell
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$txt</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$border</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$ln</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$align</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$fill</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$link</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$w</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$txt</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$border</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$ln</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$align</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fill</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$link</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodClose" id="Close"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Close</span> (line <span class="line-number">280</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Close
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodError" id="Error"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Error</span> (line <span class="line-number">268</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Error
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$msg</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$msg</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodFooter" id="Footer"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Footer</span> (line <span class="line-number">371</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Footer
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodGetStringWidth" id="GetStringWidth"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">GetStringWidth</span> (line <span class="line-number">415</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetStringWidth
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$s</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodGetX" id="GetX"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">GetX</span> (line <span class="line-number">954</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetX
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodGetY" id="GetY"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">GetY</span> (line <span class="line-number">969</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			GetY
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodHeader" id="Header"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Header</span> (line <span class="line-number">366</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Header
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodImage" id="Image"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Image</span> (line <span class="line-number">898</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Image
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$x</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$y</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$w</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$type</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$link</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$file</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$w</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$type</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$link</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodLine" id="Line"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Line</span> (line <span class="line-number">435</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Line
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$x2</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y2</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x1</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y1</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x2</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y2</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodLink" id="Link"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Link</span> (line <span class="line-number">592</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Link
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$link</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$w</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$link</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodLn" id="Ln"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Ln</span> (line <span class="line-number">888</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Ln
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodMultiCell" id="MultiCell"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">MultiCell</span> (line <span class="line-number">694</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			MultiCell
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$border</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$align</span> = <span class="var-default">'J'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$fill</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$w</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$txt</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$border</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$align</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fill</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodOpen" id="Open"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Open</span> (line <span class="line-number">274</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Open
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodOutput" id="Output"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Output</span> (line <span class="line-number">992</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Output
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$name</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$dest</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$dest</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodPageNo" id="PageNo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">PageNo</span> (line <span class="line-number">376</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			PageNo
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodRect" id="Rect"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Rect</span> (line <span class="line-number">441</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Rect
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$w</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$w</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$style</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetAuthor" id="SetAuthor"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetAuthor</span> (line <span class="line-number">238</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetAuthor
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$author</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$author</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$isUTF8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetAutoPageBreak" id="SetAutoPageBreak"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetAutoPageBreak</span> (line <span class="line-number">192</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetAutoPageBreak
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$auto</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$auto</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$margin</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetCompression" id="SetCompression"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetCompression</span> (line <span class="line-number">213</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetCompression
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$compress</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$compress</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetCreator" id="SetCreator"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetCreator</span> (line <span class="line-number">254</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetCreator
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$creator</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$creator</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$isUTF8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetDisplayMode" id="SetDisplayMode"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetDisplayMode</span> (line <span class="line-number">200</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetDisplayMode
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$zoom</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$layout</span> = <span class="var-default">'continuous'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$zoom</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$layout</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetDrawColor" id="SetDrawColor"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetDrawColor</span> (line <span class="line-number">382</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetDrawColor
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$r</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$g</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$b</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$r</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$g</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetFillColor" id="SetFillColor"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetFillColor</span> (line <span class="line-number">393</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetFillColor
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$r</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$g</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$b</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$r</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$g</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetFont" id="SetFont"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetFont</span> (line <span class="line-number">501</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetFont
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$family</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">''</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$family</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$style</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$size</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetFontSize" id="SetFontSize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetFontSize</span> (line <span class="line-number">563</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetFontSize
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$size</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$size</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetKeywords" id="SetKeywords"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetKeywords</span> (line <span class="line-number">246</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetKeywords
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$keywords</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$keywords</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$isUTF8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetLeftMargin" id="SetLeftMargin"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetLeftMargin</span> (line <span class="line-number">172</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetLeftMargin
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$margin</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetLineWidth" id="SetLineWidth"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetLineWidth</span> (line <span class="line-number">427</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetLineWidth
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$width</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$width</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetLink" id="SetLink"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetLink</span> (line <span class="line-number">582</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetLink
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$link</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$y</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$page</span> = <span class="var-default">-1</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$link</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$page</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetMargins" id="SetMargins"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetMargins</span> (line <span class="line-number">162</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetMargins
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$left</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$top</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$right</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$left</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$top</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$right</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetRightMargin" id="SetRightMargin"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetRightMargin</span> (line <span class="line-number">186</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetRightMargin
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$margin</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetSubject" id="SetSubject"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetSubject</span> (line <span class="line-number">230</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetSubject
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$subject</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$subject</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$isUTF8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetTextColor" id="SetTextColor"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetTextColor</span> (line <span class="line-number">405</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetTextColor
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$r</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$g</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$b</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$r</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$g</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$b</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetTitle" id="SetTitle"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetTitle</span> (line <span class="line-number">222</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetTitle
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$title</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$isUTF8</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$title</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$isUTF8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetTopMargin" id="SetTopMargin"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetTopMargin</span> (line <span class="line-number">180</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetTopMargin
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$margin</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$margin</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetX" id="SetX"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetX</span> (line <span class="line-number">960</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetX
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetXY" id="SetXY"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetXY</span> (line <span class="line-number">985</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetXY
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodSetY" id="SetY"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">SetY</span> (line <span class="line-number">975</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			SetY
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$y</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodText" id="Text"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Text</span> (line <span class="line-number">598</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Text
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$txt</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodWrite" id="Write"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Write</span> (line <span class="line-number">807</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Write
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$h</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$link</span> = <span class="var-default">''</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$h</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$txt</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$link</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_beginpage" id="_beginpage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_beginpage</span> (line <span class="line-number">1093</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_beginpage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$orientation</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$orientation</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_dochecks" id="_dochecks"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_dochecks</span> (line <span class="line-number">1064</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">*****************************************************************************</p>
+<p class="description"><p>*                               Protected methods                               *                                                                               * *****************************************************************************</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_dochecks
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_dounderline" id="_dounderline"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_dounderline</span> (line <span class="line-number">1190</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_dounderline
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$txt</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$txt</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_enddoc" id="_enddoc"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_enddoc</span> (line <span class="line-number">1688</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_enddoc
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_endpage" id="_endpage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_endpage</span> (line <span class="line-number">1136</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_endpage
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_escape" id="_escape"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_escape</span> (line <span class="line-number">1141</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_escape
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$s</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_getfontpath" id="_getfontpath"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_getfontpath</span> (line <span class="line-number">1086</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_getfontpath
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_getpageformat" id="_getpageformat"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_getpageformat</span> (line <span class="line-number">1077</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_getpageformat
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_newobj" id="_newobj"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_newobj</span> (line <span class="line-number">1352</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_newobj
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_out" id="_out"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_out</span> (line <span class="line-number">1367</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_out
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$s</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_parsegif" id="_parsegif"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_parsegif</span> (line <span class="line-number">1330</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_parsegif
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$file</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_parsejpg" id="_parsejpg"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_parsejpg</span> (line <span class="line-number">1199</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_parsejpg
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$file</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_parsepng" id="_parsepng"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_parsepng</span> (line <span class="line-number">1223</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_parsepng
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$file</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$file</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_putcatalog" id="_putcatalog"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putcatalog</span> (line <span class="line-number">1656</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putcatalog
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putfonts" id="_putfonts"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putfonts</span> (line <span class="line-number">1447</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putfonts
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putheader" id="_putheader"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putheader</span> (line <span class="line-number">1676</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putheader
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putimages" id="_putimages"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putimages</span> (line <span class="line-number">1561</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putimages
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putinfo" id="_putinfo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putinfo</span> (line <span class="line-number">1640</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putinfo
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putpages" id="_putpages"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putpages</span> (line <span class="line-number">1376</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putpages
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putresourcedict" id="_putresourcedict"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putresourcedict</span> (line <span class="line-number">1615</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putresourcedict
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putresources" id="_putresources"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putresources</span> (line <span class="line-number">1627</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putresources
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putstream" id="_putstream"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putstream</span> (line <span class="line-number">1360</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putstream
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$s</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_puttrailer" id="_puttrailer"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_puttrailer</span> (line <span class="line-number">1681</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_puttrailer
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_putxobjectdict" id="_putxobjectdict"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_putxobjectdict</span> (line <span class="line-number">1609</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_putxobjectdict
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_readint" id="_readint"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_readint</span> (line <span class="line-number">1323</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_readint
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$f</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$f</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_readstream" id="_readstream"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_readstream</span> (line <span class="line-number">1306</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_readstream
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$f</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$n</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$f</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$n</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_textstring" id="_textstring"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_textstring</span> (line <span class="line-number">1151</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_textstring
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$s</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_UTF8toUTF16" id="_UTF8toUTF16"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_UTF8toUTF16</span> (line <span class="line-number">1157</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_UTF8toUTF16
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$s</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$s</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 05 May 2011 18:44:20 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

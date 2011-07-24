@@ -1,0 +1,1 @@
+DELETE FROM `invoice` WHERE `invoiceId` = '?1'

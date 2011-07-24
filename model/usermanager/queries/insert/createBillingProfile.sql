@@ -1,0 +1,1 @@
+INSERT INTO `user_billingprofile` (`userId`,`currentAddress`) VALUES ('?1','?2')

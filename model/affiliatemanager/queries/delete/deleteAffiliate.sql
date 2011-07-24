@@ -1,0 +1,1 @@
+DELETE FROM `affiliates` WHERE `affiliateId` = '?1';

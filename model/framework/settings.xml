@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+    <mysql>
+        <server>localhost</server>
+        <username>enid</username>
+        <password>mHQ65Dpnj42xY3pj</password>
+        <database>enid</database>
+    </mysql>
+    <redmine>
+        <enabled>false</enabled>
+        <url>redmine.azimuth360.com</url>
+        <apiKey></apiKey>
+        <projectId></projectId>
+        <projectName></projectName>
+    </redmine>
+</settings>

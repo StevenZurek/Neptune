@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responses>
+    <response>
+        <parent>CREATE_USER</parent>
+        <errorid>1000</errorid>
+        <description>RECORD CREATED</description>
+        <message>Record Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_ADDRESS</parent>
+        <errorid>2000</errorid>
+        <description>ADDRESS CREATED</description>
+        <message>Address Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_ADDRESS</parent>
+        <errorid>2002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_USER_PROFILE</parent>
+        <errorid>3000</errorid>
+        <description>PROFILE CREATED</description>
+        <message>Profile Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_USER_PROFILE</parent>
+        <errorid>3001</errorid>
+        <description>FAILED TO CREATE PROFILE</description>
+        <message>FAILED TO CREATE PROFILE</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_USER_PROFILE</parent>
+        <errorid>3002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_BILLING_PROFILE</parent>
+        <errorid>4000</errorid>
+        <description>PROFILE CREATED</description>
+        <message>Profile Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_BILLING_PROFILE</parent>
+        <errorid>4001</errorid>
+        <description>FAILED TO CREATE PROFILE</description>
+        <message>FAILED TO CREATE PROFILE</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_BILLING_PROFILE</parent>
+        <errorid>4002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_SHIPPING_PROFILE</parent>
+        <errorid>5000</errorid>
+        <description>PROFILE CREATED</description>
+        <message>Profile Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_SHIPPING_PROFILE</parent>
+        <errorid>5001</errorid>
+        <description>FAILED TO CREATE PROFILE</description>
+        <message>FAILED TO CREATE PROFILE</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_SHIPPING_PROFILE</parent>
+        <errorid>5002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_ACCOUNT_PROFILE</parent>
+        <errorid>6000</errorid>
+        <description>PROFILE CREATED</description>
+        <message>Profile Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_ACCOUNT_PROFILE</parent>
+        <errorid>6001</errorid>
+        <description>FAILED TO CREATE PROFILE</description>
+        <message>FAILED TO CREATE PROFILE</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_ACCOUNT_PROFILE</parent>
+        <errorid>6002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_ACCOUNT_PROFILE</parent>
+        <errorid>6003</errorid>
+        <description>Username in use</description>
+        <message>Username in use</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>LOGIN</parent>
+        <errorid>7000</errorid>
+        <description>LOGGED IN ( NO VALIDATION )</description>
+        <message>Logged In</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>LOGIN</parent>
+        <errorid>7001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>LOGIN</parent>
+        <errorid>7002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>LOGIN</parent>
+        <errorid>7003</errorid>
+        <description>FAILED TO LOAD USER INFORMATION</description>
+        <message>FAILED TO LOAD USER INFORMATION</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>LOGIN</parent>
+        <errorid>7004</errorid>
+        <description>INCORRECT USERNAME OR PASSWORD</description>
+        <message>INCORRECT USERNAME OR PASSWORD</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>LOGOUT</parent>
+        <errorid>8000</errorid>
+        <description>USER LOGGED OUT</description>
+        <message>Logged Out</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_USERID</parent>
+        <errorid>9000</errorid>
+        <description>USER ID RETURNED</description>
+        <message>ID Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_USERS</parent>
+        <errorid>10000</errorid>
+        <description>USERS RETURNED</description>
+        <message>USERS RETURNED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_USER</parent>
+        <errorid>11000</errorid>
+        <description>USER DELETED</description>
+        <message>USER DELETED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_USER</parent>
+        <errorid>11001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_USER</parent>
+        <errorid>11002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_USER_INFORMATION</parent>
+        <errorid>12000</errorid>
+        <description>USER INFORMATION RETURNED</description>
+        <message>USER INFORMATION RETURNED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_USER_INFORMATION</parent>
+        <errorid>12002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>SET_PASSWORD</parent>
+        <errorid>13000</errorid>
+        <description>PASSWORD SET</description>
+        <message>PASSWORD SET</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>SET_PASSWORD</parent>
+        <errorid>13001</errorid>
+        <description>QUERY ERROR</description>
+        <message>QUERY ERROR</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CHANGE_PASSWORD</parent>
+        <errorid>14000</errorid>
+        <description>PASSWORD CHANGED</description>
+        <message>PASSWORD CHANGED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CHANGE_PASSWORD</parent>
+        <errorid>14001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CHANGE_PASSWORD</parent>
+        <errorid>14002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CHANGE_PASSWORD</parent>
+        <errorid>14003</errorid>
+        <description>CURRENT PASSWORD IS INCORRECT</description>
+        <message>CURRENT PASSWORD IS INCORRECT</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CHANGE_PASSWORD</parent>
+        <errorid>14004</errorid>
+        <description>NEW PASSWORDS DO NOT MATCH</description>
+        <message>NEW PASSWORDS DO NOT MATCH</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CHANGE_PASSWORD</parent>
+        <errorid>14005</errorid>
+        <description>FAILED TO SET PASSWORD (QUERY)</description>
+        <message>FAILED TO SET PASSWORD</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_USER_PROFILE</parent>
+        <errorid>15000</errorid>
+        <description>USER PROFILE UPDATED</description>
+        <message>USER PROFILE UPDATED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_USER_PROFILE</parent>
+        <errorid>15001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_USER_PROFILE</parent>
+        <errorid>15002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_BILLING_PROFILE</parent>
+        <errorid>16000</errorid>
+        <description>USER PROFILE UPDATED</description>
+        <message>USER PROFILE UPDATED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_BILLING_PROFILE</parent>
+        <errorid>16001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_BILLING_PROFILE</parent>
+        <errorid>16002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_SHIPPING_PROFILE</parent>
+        <errorid>17000</errorid>
+        <description>USER PROFILE UPDATED</description>
+        <message>USER PROFILE UPDATED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_SHIPPING_PROFILE</parent>
+        <errorid>17001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_SHIPPING_PROFILE</parent>
+        <errorid>17002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>SET_GROUP</parent>
+        <errorid>18000</errorid>
+        <description>GROUP SET</description>
+        <message>GROUP SET</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>SET_GROUP</parent>
+        <errorid>18001</errorid>
+        <description>QUERY FAILED</description>
+        <message>QUERY FAILED</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>SET_GROUP</parent>
+        <errorid>18002</errorid>
+        <description>REQUEST DATA INVALID</description>
+        <message>REQUEST DATA INVALID</message>
+        <result>FATAL</result>
+    </response>
+</responses>

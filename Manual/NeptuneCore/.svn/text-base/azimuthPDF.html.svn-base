@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class azimuthPDF</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class azimuthPDF</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li><a href="../NeptuneCore/container.html">container</a></li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_framework---library---azimuthPDF.php.html">/framework/library/azimuthPDF.php</a> (line <span class="field">21</span>)
+		</p>
+		
+				
+		<pre>FPDF
+   |
+   --<a href="../NeptuneCore/FPDF_TPL.html">FPDF_TPL</a>
+      |
+      --<a href="../NeptuneCore/FPDI.html">FPDI</a>
+         |
+         --azimuthPDF</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																								<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$components" title="details" class="var-name">$components</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																						
+				<div class="method-definition">
+											<span class="method-result">azimuthPDF</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addComponent" title="details" class="method-name">addComponent</a>
+											(<span class="var-type"><a href="../NeptuneCore/component.html">component</a></span>&nbsp;<span class="var-name">$newComponent</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#renderComponents" title="details" class="method-name">renderComponents</a>
+										()
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			
+<a name="var$components" id="$components"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$components</span>
+						(line <span class="line-number">23</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../NeptuneCore/FPDI.html">FPDI</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$current_filename">FPDI::$current_filename</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$current_parser">FPDI::$current_parser</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$lastUsedPageBox">FPDI::$lastUsedPageBox</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$parsers">FPDI::$parsers</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$_current_obj_id">FPDI::$_current_obj_id</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$_don_obj_stack">FPDI::$_don_obj_stack</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$_importedPages">FPDI::$_importedPages</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDI.html#var$_obj_stack">FPDI::$_obj_stack</a></span><br>
+							</span>
+											</blockquote> 
+									<p>Inherited from <span class="classname"><a href="../NeptuneCore/FPDF_TPL.html">FPDF_TPL</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDF_TPL.html#var$lastUsedTemplateData">FPDF_TPL::$lastUsedTemplateData</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDF_TPL.html#var$tpl">FPDF_TPL::$tpl</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDF_TPL.html#var$tplprefix">FPDF_TPL::$tplprefix</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDF_TPL.html#var$tpls">FPDF_TPL::$tpls</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDF_TPL.html#var$_intpl">FPDF_TPL::$_intpl</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/FPDF_TPL.html#var$_res">FPDF_TPL::$_res</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">25</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">azimuthPDF</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodaddComponent" id="addComponent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">addComponent</span> (line <span class="line-number">30</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addComponent
+		</span>
+					(<span class="var-type"><a href="../NeptuneCore/component.html">component</a></span>&nbsp;<span class="var-name">$newComponent</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../NeptuneCore/component.html">component</a></span>
+				<span class="var-name">$newComponent</span>			</li>
+				</ul>
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt><a href="../NeptuneCore/container.html#methodaddComponent">container::addComponent()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodrenderComponents" id="renderComponents"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">renderComponents</span> (line <span class="line-number">34</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			renderComponents
+		</span>
+				()
+			</div>
+	
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt><a href="../NeptuneCore/container.html#methodrenderComponents">container::renderComponents()</a></dt>
+					</dl>
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../NeptuneCore/FPDI.html">FPDI</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methodgetLastUsedPageBox">FPDI::getLastUsedPageBox()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methodgetPDFVersion">FPDI::getPDFVersion()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methodimportPage">FPDI::importPage()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methodpdf_write_value">FPDI::pdf_write_value()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methodsetPDFVersion">FPDI::setPDFVersion()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methodsetSourceFile">FPDI::setSourceFile()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#methoduseTemplate">FPDI::useTemplate()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_closeParsers">FPDI::_closeParsers()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_enddoc">FPDI::_enddoc()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_getPdfParser">FPDI::_getPdfParser()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_newobj">FPDI::_newobj()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_putformxobjects">FPDI::_putformxobjects()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_putimportedobjects">FPDI::_putimportedobjects()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDI.html#method_straightOut">FPDI::_straightOut()</a></span><br>
+											</blockquote>
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../NeptuneCore/FPDF_TPL.html">FPDF_TPL</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodAddLink">FPDF_TPL::AddLink()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodAddPage">FPDF_TPL::AddPage()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodbeginTemplate">FPDF_TPL::beginTemplate()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodendTemplate">FPDF_TPL::endTemplate()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodgetTemplateSize">FPDF_TPL::getTemplateSize()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodImage">FPDF_TPL::Image()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodLink">FPDF_TPL::Link()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodSetFont">FPDF_TPL::SetFont()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methodSetLink">FPDF_TPL::SetLink()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#methoduseTemplate">FPDF_TPL::useTemplate()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#method_out">FPDF_TPL::_out()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#method_putformxobjects">FPDF_TPL::_putformxobjects()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#method_putimages">FPDF_TPL::_putimages()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/FPDF_TPL.html#method_putxobjectdict">FPDF_TPL::_putxobjectdict()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 05 May 2011 18:44:18 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

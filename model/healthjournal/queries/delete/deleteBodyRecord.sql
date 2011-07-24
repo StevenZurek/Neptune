@@ -1,0 +1,1 @@
+DELETE FROM `healthjournal_body` WHERE `recordId` = '?1'

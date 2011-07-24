@@ -1,0 +1,1 @@
+UPDATE `healthjournal_food_items` SET `autocomplete` = '0' WHERE `recordId` = '?1';

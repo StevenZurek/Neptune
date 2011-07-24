@@ -1,0 +1,1 @@
+SELECT * FROM `healthjournal_body` WHERE `userId` = '?1'

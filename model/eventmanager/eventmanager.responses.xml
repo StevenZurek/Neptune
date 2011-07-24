@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responses>
+    <response>
+        <parent>CREATE_EVENT</parent>
+        <errorid>1000</errorid>
+        <description>EVENT CREATED</description>
+        <message>Event Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_EVENT</parent>
+        <errorid>1001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_EVENT</parent>
+        <errorid>1002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_EVENT</parent>
+        <errorid>2000</errorid>
+        <description>EVENT UPDATED</description>
+        <message>Event Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_EVENT</parent>
+        <errorid>2001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_EVENT</parent>
+        <errorid>2002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_EVENT</parent>
+        <errorid>3000</errorid>
+        <description>EVENT DELETED</description>
+        <message>Event Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_EVENT</parent>
+        <errorid>3001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_EVENT</parent>
+        <errorid>3002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_EVENT</parent>
+        <errorid>4000</errorid>
+        <description>EVENT RETRIVED</description>
+        <message>Event Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_EVENT</parent>
+        <errorid>4001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_EVENT</parent>
+        <errorid>4002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_EVENTS</parent>
+        <errorid>5000</errorid>
+        <description>EVENTS RETRIVED</description>
+        <message>Events Retrived</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_EVENTS</parent>
+        <errorid>5001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_EVENTS</parent>
+        <errorid>5002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>RSVP</parent>
+        <errorid>6000</errorid>
+        <description>RSVP'D FOR EVENT</description>
+        <message>Rsvp'd for event</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>RSVP</parent>
+        <errorid>6001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>RSVP</parent>
+        <errorid>6002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CANCEL_RSVP</parent>
+        <errorid>7000</errorid>
+        <description>RSVP CANCELED</description>
+        <message>RSVP CANCELED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CANCEL_RSVP</parent>
+        <errorid>7001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CANCEL_RSVP</parent>
+        <errorid>7002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_ATTENDEES</parent>
+        <errorid>8000</errorid>
+        <description>Attendees retrived</description>
+        <message>Attendees retrived</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_ATTENDEES</parent>
+        <errorid>8001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_ATTENDEES</parent>
+        <errorid>8002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+</responses>

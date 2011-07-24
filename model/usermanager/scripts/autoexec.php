@@ -1,0 +1,4 @@
+<?php
+// USERMANAGER AUTOEXEC.PHP SCRIPT
+
+?>

@@ -1,0 +1,1 @@
+INSERT INTO `user_account` (`userId`,`username`,`password`,`group`) VALUES ('?1','?2','?3','?4')

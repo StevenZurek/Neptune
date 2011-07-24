@@ -1,0 +1,1 @@
+SELECT * FROM `affiliates` WHERE `affiliateId` = '?1';

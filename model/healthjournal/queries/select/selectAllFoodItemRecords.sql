@@ -1,0 +1,1 @@
+SELECT * FROM `healthjournal_food_items` WHERE `userId` = '?1' AND autocomplete = '1' or `userId` = '0' AND autocomplete = '1'

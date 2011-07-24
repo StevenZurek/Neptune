@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/enid/!svn/ver/77/_modules/com/Neptune/model/framework/library/fpdi/filters
+END
+FilterASCII85.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/enid/!svn/ver/77/_modules/com/Neptune/model/framework/library/fpdi/filters/FilterASCII85.php
+END
+FilterASCII85_FPDI.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/enid/!svn/ver/77/_modules/com/Neptune/model/framework/library/fpdi/filters/FilterASCII85_FPDI.php
+END
+FilterLZW.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/enid/!svn/ver/77/_modules/com/Neptune/model/framework/library/fpdi/filters/FilterLZW.php
+END
+FilterLZW_FPDI.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/enid/!svn/ver/77/_modules/com/Neptune/model/framework/library/fpdi/filters/FilterLZW_FPDI.php
+END

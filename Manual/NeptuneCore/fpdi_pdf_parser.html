@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class fpdi_pdf_parser</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class fpdi_pdf_parser</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_framework---library---fpdi---fpdi_pdf_parser.php.html">/framework/library/fpdi/fpdi_pdf_parser.php</a> (line <span class="field">22</span>)
+		</p>
+		
+				
+		<pre><a href="../NeptuneCore/pdf_parser.html">pdf_parser</a>
+   |
+   --fpdi_pdf_parser</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$availableBoxes" title="details" class="var-name">$availableBoxes</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">object</span>
+					<a href="#$fpdi" title="details" class="var-name">$fpdi</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">integer</span>
+					<a href="#$pageno" title="details" class="var-name">$pageno</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$pages" title="details" class="var-name">$pages</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">integer</span>
+					<a href="#$page_count" title="details" class="var-name">$page_count</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$pdfVersion" title="details" class="var-name">$pdfVersion</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																														
+				<div class="method-definition">
+											<span class="method-result">fpdi_pdf_parser</span>
+										<a href="#fpdi_pdf_parser" title="details" class="method-name">fpdi_pdf_parser</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$filename</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$fpdi</span>, <span class="var-type">object</span>&nbsp;<span class="var-name">$fpdi</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#error" title="details" class="method-name">error</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$msg</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getContent" title="details" class="method-name">getContent</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getPageBox" title="details" class="method-name">getPageBox</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$page</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$box_index</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$k</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getPageBoxes" title="details" class="method-name">getPageBoxes</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$pageno</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$k</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getPageCount" title="details" class="method-name">getPageCount</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getPageResources" title="details" class="method-name">getPageResources</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getPageRotation" title="details" class="method-name">getPageRotation</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$pageno</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPDFVersion" title="details" class="method-name">getPDFVersion</a>
+										()
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#read_pages" title="details" class="method-name">read_pages</a>
+											(<span class="var-type"><a href="../NeptuneCore/pdf_context.html">object pdf_context</a></span>&nbsp;<span class="var-name">&$c</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">&$pages</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">&$result</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setPageno" title="details" class="method-name">setPageno</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$pageno</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#_getPageBoxes" title="details" class="method-name">_getPageBoxes</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$page</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$k</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#_getPageContent" title="details" class="method-name">_getPageContent</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$content_ref</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_getPageResources" title="details" class="method-name">_getPageResources</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$obj</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_getPageRotation" title="details" class="method-name">_getPageRotation</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$obj</span>)
+									</div>
+														
+				<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#_rebuildContentStream" title="details" class="method-name">_rebuildContentStream</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$obj</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			
+<a name="var$availableBoxes" id="$availableBoxes"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$availableBoxes</span>
+			 = <span class="var-default">array('/MediaBox', '/CropBox', '/BleedBox', '/TrimBox', '/ArtBox')</span>			(line <span class="line-number">61</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Available BoxTypes</p>
+	
+	
+		
+		
+
+</div>
+<a name="var$fpdi" id="$fpdi"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">object</span>
+			<span class="var-name">$fpdi</span>
+						(line <span class="line-number">54</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">FPDI Reference</p>
+	
+	
+		
+		
+
+</div>
+<a name="var$pageno" id="$pageno"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">integer</span>
+			<span class="var-name">$pageno</span>
+						(line <span class="line-number">42</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">actual page number</p>
+	
+	
+		
+		
+
+</div>
+<a name="var$pages" id="$pages"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$pages</span>
+						(line <span class="line-number">30</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Pages  Index beginns at 0</p>
+	
+	
+		
+		
+
+</div>
+<a name="var$page_count" id="$page_count"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">integer</span>
+			<span class="var-name">$page_count</span>
+						(line <span class="line-number">36</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Page count</p>
+	
+	
+		
+		
+
+</div>
+<a name="var$pdfVersion" id="$pdfVersion"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$pdfVersion</span>
+						(line <span class="line-number">48</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">PDF Version of imported Document</p>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../NeptuneCore/pdf_parser.html#var$pdfVersion">pdf_parser::$pdfVersion</a></dt>
+						<dd>PDF version of the loaded document</dd>
+					</dl>
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../NeptuneCore/pdf_parser.html">pdf_parser</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/pdf_parser.html#var$c">pdf_parser::$c</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/pdf_parser.html#var$f">pdf_parser::$f</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/pdf_parser.html#var$filename">pdf_parser::$filename</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/pdf_parser.html#var$readPlain">pdf_parser::$readPlain</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/pdf_parser.html#var$root">pdf_parser::$root</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../NeptuneCore/pdf_parser.html#var$xref">pdf_parser::$xref</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodfpdi_pdf_parser" id="fpdi_pdf_parser"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor fpdi_pdf_parser</span> (line <span class="line-number">69</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	
+	<div class="method-signature">
+		<span class="method-result">fpdi_pdf_parser</span>
+		<span class="method-name">
+			fpdi_pdf_parser
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$filename</span>, <span class="var-type"></span>&nbsp;<span class="var-name">&$fpdi</span>, <span class="var-type">object</span>&nbsp;<span class="var-name">$fpdi</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$filename</span><span class="var-description">: Source-Filename</span>			</li>
+					<li>
+				<span class="var-type">object</span>
+				<span class="var-name">$fpdi</span><span class="var-description">: Object of type fpdi</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$fpdi</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoderror" id="error"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">error</span> (line <span class="line-number">89</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Overwrite parent::error()</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			error
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$msg</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$msg</span><span class="var-description">: Error-Message</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../NeptuneCore/pdf_parser.html#methoderror">pdf_parser::error()</a></dt>
+						<dd>Print Error and die</dd>
+					</dl>
+			
+	</div>
+<a name="methodgetContent" id="getContent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getContent</span> (line <span class="line-number">164</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get content of current page</p>
+<p class="description"><p>If more /Contents is an array, the streams are concated</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getContent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPageBox" id="getPageBox"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPageBox</span> (line <span class="line-number">275</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get a Box from a page  Arrayformat is same as used by fpdf_tpl</p>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getPageBox
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$page</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$box_index</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$k</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$page</span><span class="var-description">: a /Page</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$box_index</span><span class="var-description">: Type of Box @see $availableBoxes</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$k</span><span class="var-description">: Scale factor from user space units to points</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPageBoxes" id="getPageBoxes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPageBoxes</span> (line <span class="line-number">311</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get all page boxes by page no</p>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getPageBoxes
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$pageno</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$k</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$pageno</span><span class="var-description">: The page number</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$k</span><span class="var-description">: Scale factor from user space units to points</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPageCount" id="getPageCount"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPageCount</span> (line <span class="line-number">98</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get pagecount from sourcefile</p>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getPageCount
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPageResources" id="getPageResources"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPageResources</span> (line <span class="line-number">123</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get page-resources from current page</p>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getPageResources
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPageRotation" id="getPageRotation"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPageRotation</span> (line <span class="line-number">339</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get the page rotation by pageno</p>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getPageRotation
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$pageno</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$pageno</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPDFVersion" id="getPDFVersion"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPDFVersion</span> (line <span class="line-number">401</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get PDF-Version</p>
+<p class="description"><p>And reset the PDF Version used in FPDI if needed</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPDFVersion
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../NeptuneCore/pdf_parser.html#methodgetPDFVersion">pdf_parser::getPDFVersion()</a></dt>
+						<dd>Get PDF-Version</dd>
+					</dl>
+			
+	</div>
+<a name="methodread_pages" id="read_pages"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">read_pages</span> (line <span class="line-number">369</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Read all /Page(es)</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			read_pages
+		</span>
+					(<span class="var-type"><a href="../NeptuneCore/pdf_context.html">object pdf_context</a></span>&nbsp;<span class="var-name">&$c</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">&$pages</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">&$result</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../NeptuneCore/pdf_context.html">object pdf_context</a></span>
+				<span class="var-name">&$c</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">&$pages</span><span class="var-description">: /Pages</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">&$result</span><span class="var-description">: the result-array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPageno" id="setPageno"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setPageno</span> (line <span class="line-number">108</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set pageno</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setPageno
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$pageno</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$pageno</span><span class="var-description">: Pagenumber to use</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_getPageBoxes" id="_getPageBoxes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_getPageBoxes</span> (line <span class="line-number">321</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get all boxes from /Page</p>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			_getPageBoxes
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$page</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$k</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$page</span><span class="var-description">: a /Page</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$k</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_getPageContent" id="_getPageContent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_getPageContent</span> (line <span class="line-number">184</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Resolve all content-objects</p>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			_getPageContent
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$content_ref</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$content_ref</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_getPageResources" id="_getPageResources"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_getPageResources</span> (line <span class="line-number">132</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get page-resources from /Page</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_getPageResources
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$obj</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$obj</span><span class="var-description">: Array of pdf-data</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_getPageRotation" id="_getPageRotation"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_getPageRotation</span> (line <span class="line-number">343</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_getPageRotation
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$obj</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$obj</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_rebuildContentStream" id="_rebuildContentStream"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_rebuildContentStream</span> (line <span class="line-number">210</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rebuild content-streams</p>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			_rebuildContentStream
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$obj</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$obj</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../NeptuneCore/pdf_parser.html">pdf_parser</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_parser">pdf_parser::pdf_parser()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodcloseFile">pdf_parser::closeFile()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methoderror">pdf_parser::error()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodgetEncryption">pdf_parser::getEncryption()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodgetPDFVersion">pdf_parser::getPDFVersion()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_find_root">pdf_parser::pdf_find_root()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_find_xref">pdf_parser::pdf_find_xref()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_read_root">pdf_parser::pdf_read_root()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_read_token">pdf_parser::pdf_read_token()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_read_value">pdf_parser::pdf_read_value()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_read_xref">pdf_parser::pdf_read_xref()</a></span><br>
+													<span class="method-name"><a href="../NeptuneCore/pdf_parser.html#methodpdf_resolve_object">pdf_parser::pdf_resolve_object()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 05 May 2011 18:44:21 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

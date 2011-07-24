@@ -1,0 +1,1 @@
+DELETE FROM `healthjournal_food` WHERE `recordId` = '?1'

@@ -1,0 +1,1 @@
+SELECT * FROM `healthjournal_food_items` WHERE `recordId` = '?1';

@@ -1,0 +1,1 @@
+SELECT * FROM `events` WHERE `eventId` = '?1';

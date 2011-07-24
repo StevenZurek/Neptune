@@ -1,0 +1,1 @@
+DELETE FROM `invoice_lineitems` WHERE `invoice_lineitems`.`lineId` = '?1';

@@ -1,0 +1,1 @@
+INSERT INTO `products_products` (`sku`,`name`,`description`,`ppu`) VALUES ('?1','?2','?3','?4');

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responses>
+    <response>
+        <parent>CREATE_ACTIVITIES_RECORD</parent>
+        <errorid>1000</errorid>
+        <description>Record Created</description>
+        <message>Record Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_ACTIVITIES_RECORD</parent>
+        <errorid>1001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_ACTIVITIES_RECORD</parent>
+        <errorid>1002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_ACTIVITIES_RECORD</parent>
+        <errorid>2000</errorid>
+        <description>Record Updated</description>
+        <message>Record Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_ACTIVITIES_RECORD</parent>
+        <errorid>2001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_ACTIVITIES_RECORD</parent>
+        <errorid>2002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_ACTIVITIES_RECORD</parent>
+        <errorid>3000</errorid>
+        <description>Record deleted</description>
+        <message>Record deleted</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_ACTIVITIES_RECORD</parent>
+        <errorid>3001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_ACTIVITIES_RECORD</parent>
+        <errorid>3002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ACTIVITIES_RECORD</parent>
+        <errorid>4000</errorid>
+        <description>Record Returned</description>
+        <message>Record Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ACTIVITIES_RECORD</parent>
+        <errorid>4001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ACTIVITIES_RECORD</parent>
+        <errorid>4002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_ACTIVITIES_RECORDS</parent>
+        <errorid>5000</errorid>
+        <description>FUNCTION COMPLETED</description>
+        <message>FUNCTION COMPLETED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_ACTIVITIES_RECORDS</parent>
+        <errorid>5001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_ACTIVITIES_RECORDS</parent>
+        <errorid>5002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_VITAL_RECORD</parent>
+        <errorid>6000</errorid>
+        <description>Record Created</description>
+        <message>Record Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_VITAL_RECORD</parent>
+        <errorid>6001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_VITAL_RECORD</parent>
+        <errorid>6002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_VITAL_RECORD</parent>
+        <errorid>7000</errorid>
+        <description>Record Updated</description>
+        <message>Record Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_VITAL_RECORD</parent>
+        <errorid>7001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_VITAL_RECORD</parent>
+        <errorid>7002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_VITAL_RECORD</parent>
+        <errorid>8000</errorid>
+        <description>Record Deleted</description>
+        <message>Record Deleted</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_VITAL_RECORD</parent>
+        <errorid>8001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_VITAL_RECORD</parent>
+        <errorid>8002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_VITAL_RECORD</parent>
+        <errorid>9000</errorid>
+        <description>Record Returned</description>
+        <message>FUNCTION COMPLETED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_VITAL_RECORD</parent>
+        <errorid>9001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_VITAL_RECORD</parent>
+        <errorid>9002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_VITAL_RECORDS</parent>
+        <errorid>10000</errorid>
+        <description>Records Returned</description>
+        <message>FUNCTION COMPLETED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_VITAL_RECORDS</parent>
+        <errorid>10001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_VITAL_RECORDS</parent>
+        <errorid>10002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_DIARY_RECORD</parent>
+        <errorid>11000</errorid>
+        <description>Record Created</description>
+        <message>FUNCTION COMPLETED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_DIARY_RECORD</parent>
+        <errorid>11001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_DIARY_RECORD</parent>
+        <errorid>11002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_DIARY_RECORD</parent>
+        <errorid>12000</errorid>
+        <description>Record Updated</description>
+        <message>Record Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_DIARY_RECORD</parent>
+        <errorid>12001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_DIARY_RECORD</parent>
+        <errorid>12002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_DIARY_RECORD</parent>
+        <errorid>13000</errorid>
+        <description>Record Deleted</description>
+        <message>Record Deleted</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_DIARY_RECORD</parent>
+        <errorid>13001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_DIARY_RECORD</parent>
+        <errorid>13002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_DIARY_RECORD</parent>
+        <errorid>14000</errorid>
+        <description>Record Returned</description>
+        <message>Record Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_DIARY_RECORD</parent>
+        <errorid>14001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_DIARY_RECORD</parent>
+        <errorid>14002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_DIARY_RECORDS</parent>
+        <errorid>15000</errorid>
+        <description>Records Returned</description>
+        <message>Records Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_DIARY_RECORDS</parent>
+        <errorid>15001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_DIARY_RECORDS</parent>
+        <errorid>15002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_BODY_RECORD</parent>
+        <errorid>16000</errorid>
+        <description>Record Created</description>
+        <message>Record Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_BODY_RECORD</parent>
+        <errorid>16001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_BODY_RECORD</parent>
+        <errorid>16002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_BODY_RECORD</parent>
+        <errorid>17000</errorid>
+        <description>Record Updated</description>
+        <message>Record Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_BODY_RECORD</parent>
+        <errorid>17001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_BODY_RECORD</parent>
+        <errorid>17002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_BODY_RECORD</parent>
+        <errorid>18000</errorid>
+        <description>Record Deleted</description>
+        <message>Record Deleted</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_BODY_RECORD</parent>
+        <errorid>18001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_BODY_RECORD</parent>
+        <errorid>18002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_BODY_RECORD</parent>
+        <errorid>19000</errorid>
+        <description>Record Returned</description>
+        <message>Record Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_BODY_RECORD</parent>
+        <errorid>19001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_BODY_RECORD</parent>
+        <errorid>19002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_BODY_RECORDS</parent>
+        <errorid>20000</errorid>
+        <description>FUNCTION COMPLETED</description>
+        <message>FUNCTION COMPLETED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_BODY_RECORDS</parent>
+        <errorid>20001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_BODY_RECORDS</parent>
+        <errorid>20002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_FOOD_ITEM_RECORD</parent>
+        <errorid>21000</errorid>
+        <description>Record created</description>
+        <message>Record created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_FOOD_ITEM_RECORD</parent>
+        <errorid>21001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_FOOD_ITEM_RECORD</parent>
+        <errorid>21002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_FOOD_ITEM_RECORD</parent>
+        <errorid>22000</errorid>
+        <description>Record Updated</description>
+        <message>Record Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_FOOD_ITEM_RECORD</parent>
+        <errorid>22001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_FOOD_ITEM_RECORD</parent>
+        <errorid>22002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_FOOD_ITEM_RECORD</parent>
+        <errorid>23000</errorid>
+        <description>Record disabled</description>
+        <message>Record disabled</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_FOOD_ITEM_RECORD</parent>
+        <errorid>23001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_FOOD_ITEM_RECORD</parent>
+        <errorid>23002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_FOOD_ITEM_RECORD</parent>
+        <errorid>24000</errorid>
+        <description>Record Returned</description>
+        <message>Record Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_FOOD_ITEM_RECORD</parent>
+        <errorid>24001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_FOOD_ITEM_RECORD</parent>
+        <errorid>24002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_FOOD_ITEM_RECORDS</parent>
+        <errorid>25000</errorid>
+        <description>Records Returned</description>
+        <message>Records Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_FOOD_ITEM_RECORDS</parent>
+        <errorid>25001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_FOOD_ITEM_RECORDS</parent>
+        <errorid>25002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_FOOD_RECORD</parent>
+        <errorid>26000</errorid>
+        <description>Record Created</description>
+        <message>Record Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_FOOD_RECORD</parent>
+        <errorid>26001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_FOOD_RECORD</parent>
+        <errorid>26002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_FOOD_RECORD</parent>
+        <errorid>27000</errorid>
+        <description>Record Updated</description>
+        <message>Record Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_FOOD_RECORD</parent>
+        <errorid>27001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_FOOD_RECORD</parent>
+        <errorid>27002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_FOOD_RECORD</parent>
+        <errorid>28000</errorid>
+        <description>Record Deleted</description>
+        <message>Record Deleted</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_FOOD_RECORD</parent>
+        <errorid>28001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_FOOD_RECORD</parent>
+        <errorid>28002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_FOOD_RECORD</parent>
+        <errorid>29000</errorid>
+        <description>Record Returned</description>
+        <message>Record Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_FOOD_RECORD</parent>
+        <errorid>29001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_FOOD_RECORD</parent>
+        <errorid>29002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_FOOD_RECORDS</parent>
+        <errorid>30000</errorid>
+        <description>Records Returned</description>
+        <message>Records Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_FOOD_RECORDS</parent>
+        <errorid>30001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_FOOD_RECORDS</parent>
+        <errorid>30002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_CHART_DATA</parent>
+        <errorid>31000</errorid>
+        <description>Data Returned</description>
+        <message>Data Returned</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_CHART_DATA</parent>
+        <errorid>31001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_CHART_DATA</parent>
+        <errorid>31002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+</responses>

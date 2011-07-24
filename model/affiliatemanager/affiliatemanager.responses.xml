@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responses>
+    <response>
+        <parent>CREATE_AFFILIATE</parent>
+        <errorid>1000</errorid>
+        <description>AFFILIATE CREATED</description>
+        <message>Affiliate Created</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>CREATE_AFFILIATE</parent>
+        <errorid>1001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>CREATE_AFFILIATE</parent>
+        <errorid>1002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_AFFILIATE</parent>
+        <errorid>2000</errorid>
+        <description>AFFILIATE UPDATED</description>
+        <message>Affiliate Updated</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>UPDATE_AFFILIATE</parent>
+        <errorid>2001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>UPDATE_AFFILIATE</parent>
+        <errorid>2002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_AFFILIATE</parent>
+        <errorid>3000</errorid>
+        <description>AFFILIATE DELETED</description>
+        <message>Affiliate Deleted</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>DELETE_AFFILIATE</parent>
+        <errorid>3001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>DELETE_AFFILIATE</parent>
+        <errorid>3002</errorid>
+        <description>Invalid Request Data</description>
+        <message>Invalid Request Data</message>
+        <result>FATAL</result>
+    </response>
+    <response>
+        <parent>GET_ALL_AFFILIATES</parent>
+        <errorid>4000</errorid>
+        <description>AFFILIATES RETURNED</description>
+        <message>AFFILIATES RETURNED</message>
+        <result>OK</result>
+    </response>
+    <response>
+        <parent>GET_ALL_AFFILIATES</parent>
+        <errorid>4001</errorid>
+        <description>Query Failed</description>
+        <message>Query Failed</message>
+        <result>FATAL</result>
+    </response>
+</responses>

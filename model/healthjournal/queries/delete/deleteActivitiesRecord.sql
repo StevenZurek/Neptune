@@ -1,0 +1,1 @@
+DELETE FROM `healthjournal_activities` WHERE `recordId` = '?1';

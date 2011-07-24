@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<responses>
+    <response>
+        <parent>GET_MODULES</parent>
+        <errorid>1000</errorid>
+        <description>MODULES RETURNED</description>
+        <message>MODULES RETURNED</message>
+        <result>OK</result>
+    </response>
+</responses>
