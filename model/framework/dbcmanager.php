@@ -2,8 +2,6 @@
 function mysqliConnect($configFile) {
   //Load the database settings file  
   $settings = simplexml_load_file($configFile);
-var_dump ($settings);
-exit();
   //Validate the settings.xml file
   if ((string) $settings->mysql->username === "_USER_") {
     $errMsg = "Please set the database username (./Neptune/model/framework/settings.xml\n";
@@ -14,12 +12,12 @@ exit();
   if ((string) $settings->mysql->database === "_DATABASE_") {
     $errMsg = "Please set the database name (./Neptune/model/framework/settings.xml\n";
   }
-  
-  if(isset($errMsg)){
+
+  if (isset($errMsg)) {
     printf("Neptune Error:" + $errMsg);
     exit();
   }
-  
+
   $con = mysqli_connect(
           (string) $settings->mysql->server, (string) $settings->mysql->username, (string) $settings->mysql->password, (string) $settings->mysql->database);
 
@@ -31,10 +29,12 @@ exit();
 }
 
 class mysqlRow {
+
   function __construct() {
     foreach ($this as $column => $value) {
       $this->$column = urldecode($value);
     }
   }
+
 }
 ?>
