@@ -4,16 +4,17 @@ function mysqliConnect($configFile) {
   $settings = simplexml_load_file($configFile);
   //Validate the settings.xml file
   if ((string) $settings->mysql->username === "_USER_") {
-    $errMsg .= "Please set the database username <i>(./Neptune/model/framework/settings.xml)</i><br />";
+    $errMsg = "Please set the database username (./Neptune/model/framework/settings.xml\n";
   }
   if ((string) $settings->mysql->password === "_PASSWORD_") {
-    $errMsg .= "Please set the database password <i>(./Neptune/model/framework/settings.xml)</i><br />";
+    $errMsg = "Please set the database password (./Neptune/model/framework/settings.xml\n";
   }
   if ((string) $settings->mysql->database === "_DATABASE_") {
-    $errMsg .= "Please set the database name <i>(./Neptune/model/framework/settings.xml)</i><br />";
+    $errMsg = "Please set the database name (./Neptune/model/framework/settings.xml\n";
   }
+
   if (isset($errMsg)) {
-    printf("<b>Neptune Error</b><br />" . $errMsg);
+    printf("Neptune Error:" + $errMsg);
     exit();
   }
 
