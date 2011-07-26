@@ -2,9 +2,9 @@
 <settings>
     <mysql>
         <server>localhost</server>
-        <username>_USER_</username>
-        <password>_PASSWORD_</password>
-        <database>_DATABASE_</database>
+        <username>app</username>
+        <password>L2pamWJ9yNmeeVEm</password>
+        <database>neptune</database>
     </mysql>
     <redmine>
         <enabled>false</enabled>
